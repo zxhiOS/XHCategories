@@ -1,0 +1,6 @@
+framework module XHCategories {
+  umbrella header "XHCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

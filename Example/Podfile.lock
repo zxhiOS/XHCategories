@@ -1,0 +1,16 @@
+PODS:
+  - XHCategories (0.1.0)
+
+DEPENDENCIES:
+  - XHCategories (from `../`)
+
+EXTERNAL SOURCES:
+  XHCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHCategories: 5bb7705446a98276f1dae7111530433160003074
+
+PODFILE CHECKSUM: 54d7e7ab44a6ad5acc3df48795e10f2bf1b9f74d
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,22 @@
+{
+  "name": "XHCategories",
+  "version": "0.1.0",
+  "summary": "A short description of XHCategories.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zXinHong/XHCategories",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zXinHong": "zhengxinhong0511@163.com"
+  },
+  "source": {
+    "git": "https://github.com/zXinHong/XHCategories.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XHCategories/Classes/**/*"
+}
