@@ -1,22 +1,32 @@
 {
   "name": "XHCategories",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of XHCategories.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zXinHong/XHCategories",
+  "description": "一个简单的分类.",
+  "homepage": "https://github.com/zxhiOS/XHCategories",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zXinHong": "zhengxinhong0511@163.com"
+    "zxhiOS": "997600269@qq.com"
   },
   "source": {
-    "git": "https://github.com/zXinHong/XHCategories.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/zxhiOS/XHCategories.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XHCategories/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "Fundation",
+      "source_files": "XHCategories/Classes/Fundation/**/*"
+    },
+    {
+      "name": "UIKit",
+      "source_files": "XHCategories/Classes/UIKit/**/*",
+      "public_header_files": "XHCategories/Classes/UIKit/**/*.h"
+    }
+  ]
 }

@@ -1,5 +1,9 @@
 PODS:
-  - XHCategories (0.1.0)
+  - XHCategories (0.1.2):
+    - XHCategories/Fundation (= 0.1.2)
+    - XHCategories/UIKit (= 0.1.2)
+  - XHCategories/Fundation (0.1.2)
+  - XHCategories/UIKit (0.1.2)
 
 DEPENDENCIES:
   - XHCategories (from `../`)
@@ -9,8 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XHCategories: 5bb7705446a98276f1dae7111530433160003074
+  XHCategories: ffc94bde7f8ce19f2de66eb36b8f402e2aee7c35
 
-PODFILE CHECKSUM: 54d7e7ab44a6ad5acc3df48795e10f2bf1b9f74d
+PODFILE CHECKSUM: c31c6eb0f389dc8e3fdc9f6d9447c2f1b6dc1dde
 
 COCOAPODS: 1.5.3

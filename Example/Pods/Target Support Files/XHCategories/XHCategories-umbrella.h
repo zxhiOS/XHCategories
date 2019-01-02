@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "NSData+XHTool.h"
+#import "NSString+XHTool.h"
+#import "UIColor+XHTool.h"
+#import "UIView+XHTool.h"
 
 FOUNDATION_EXPORT double XHCategoriesVersionNumber;
 FOUNDATION_EXPORT const unsigned char XHCategoriesVersionString[];
