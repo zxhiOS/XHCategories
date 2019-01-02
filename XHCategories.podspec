@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
       uiKit.source_files = 'XHCategories/Classes/UIKit/**/*'
       
       uiKit.public_header_files = 'XHCategories/Classes/UIKit/**/*.h'
-      #ui.dependency 'XHCategories/Fundation'
+      uiKit.dependency 'XHCategories/Fundation'
       
   end
   
